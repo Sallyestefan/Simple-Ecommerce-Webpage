@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sal's Shop</h1>
+  <div class = "tabs">
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="account.html">Account</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cart.html">Cart</a></li>
+          </ul>
+      </nav>
+  </div>
+  
+  <h2>Create Account</h2>
+<form action="processAccount.php" method="post" id="createAccountForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName"><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address""><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber"><br>
+
+    <button type="submit">Create Account</button>
+</form>
+</body>
+</html>

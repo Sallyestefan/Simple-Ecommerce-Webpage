@@ -1,0 +1,166 @@
+
+body{
+  background-color: palevioletred
+}
+
+h1{
+color: lightblue;
+}
+
+h2{
+  color: lightblue;
+  text-align: center;
+}
+
+h3{
+  color:lightblue;
+  font-size: small;
+}
+
+p{
+  font-size: small;
+}
+
+img{
+  display: inline-block;
+  width: 150px;
+}
+
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a{
+  text-decoration:none;
+  color: lightblue;
+}
+
+input{
+  color: lightblue;
+  border-color: lightblue;
+  border-radius: 5px;
+  margin: 10px;
+  
+}
+
+button{
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  border-color: lightblue;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+
+.tabs{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#contactBar{
+color: lightblue;
+text-align: left;
+margin-top: 100px;
+}
+
+#images{
+text-align: center;
+}
+
+#borderimg{
+border: 3px solid lightblue;
+border-radius: 20px;
+background-color: white;
+}
+
+.itemShop {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid lightblue;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  color: lightblue;
+}
+
+#createAccountForm{
+  color: lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+#loginForm{
+  color: lightblue;
+  border: 2px solid;
+  text-align: center;
+}
+
+#loginBut{
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  border-color: lightblue;
+  margin: 10px;
+  cursor: pointer;
+  margin-left: 87px;
+}
+
+#loginBut:hover{
+  background-color: lightgray;
+}
+
+#cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.item {
+  display: inline-block;
+  margin: 5px;
+  color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.item img {
+  width: 50px;
+  height: auto;
+
+}
+
+#totalPrice {
+  text-align: left;
+  color: lightblue;
+}
+
+.remove-btn{
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+  border-color: lightblue;
+  cursor: pointer;
+}
+.remove-btn:hover{
+  background-color: lightgrey
+}
+
+
